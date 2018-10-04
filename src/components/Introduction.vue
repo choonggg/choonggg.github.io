@@ -1,6 +1,6 @@
 <template>
   <div class="Introduction">
-    <div class="container mx-auto py-12 px-8">
+    <div class="container mx-auto my-16 px-8">
 
       <h1 class="font-header text-2xl mt-8">
         Hi! I am Elijah Goh, but you can call me Eli.

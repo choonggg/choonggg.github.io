@@ -19,14 +19,18 @@
       </h2>
 
       <div class="icons mt-12">
-        <a href="https://www.linkedin.com/in/chonghui/">
+        <a
+          class="text-teal hover:text-teal-dark"
+          href="https://www.linkedin.com/in/chonghui/">
           <LinkedIn class="icon mx-2"
             style="width: 30px;
             height: auto;" 
             viewBox="0 0 32 32" />
         </a>
 
-        <a href="https://github.com/choonggg">
+        <a
+          class="text-teal hover:text-teal-dark"
+          href="https://github.com/choonggg">
           <Github class="icon mx-2"
             style="width: 30px; height: auto;"
             viewBox="0 0 32 32" />
@@ -41,15 +45,10 @@ import LinkedIn from '@/assets/svg/linkedin2.svg'
 import Github from '@/assets/svg/github.svg'
 
 export default {
-  name: 'HelloWorld',
+  name: 'Header',
   components: {
-    LinkedIn, Github
+    LinkedIn,
+    Github
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.icons a {
-  color: #2f2f2f;
-}
-</style>
