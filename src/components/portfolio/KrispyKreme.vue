@@ -4,7 +4,9 @@
 
       <div class="sm:w-1/2 mr-4">
         <h1 class="font-header text-xl">
-          <a class="no-underline" href="http://krispykreme.sg/">Krispy Kreme</a> (Nokomai Studios)
+          <a class="no-underline" href="http://krispykreme.sg/">Krispy Kreme Singapore</a>
+          <br>
+          (Nokomai Studios)
         </h1>
 
         <p class="text-sm">
@@ -36,7 +38,7 @@
 
     </div>
 
-    <div class="portfolio flex justify-center items-center mt-8 px-4">
+    <div class="portfolio flex justify-center items-center mt-4 px-4">
       <a href="https://wordpress.org/" class="inline-block mr-24">
         <img src="https://s.w.org/style/images/wporg-logo.svg?3" width="250" alt="Wordpress">
       </a>
