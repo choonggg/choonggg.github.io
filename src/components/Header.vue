@@ -39,16 +39,7 @@
 </template>
 
 <script>
-import LinkedIn from '@/assets/svg/linkedin2.svg'
-import Github from '@/assets/svg/github.svg'
-import Envelope from '@/assets/svg/envelope.svg'
-
 export default {
   name: 'Header',
-  components: {
-    LinkedIn,
-    Github,
-    Envelope,
-  },
 }
 </script>
