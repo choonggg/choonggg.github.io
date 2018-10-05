@@ -1,24 +1,31 @@
 <template>
   <div class="Technical">
     <div class="container mx-auto my-16 px-8">
-      <h1 class="font-header text-2xl">Technical Skills</h1>
+      <h1 class="font-header text-2xl">Portfolio</h1>
 
-      <p class="content">
-        Since having learnt and used Rails in production for most my career and having built startups from ground up to working on
-        large application, I consider myself fluent with Ruby and it's ecosystem.
-      </p>
+      <div class="sm:flex mt-12">
+        <div class="sm:w-2/5 mr-4">
+          <h1 class="font-header text-xl">
+            <a class="no-underline" href="http://bluethumb.com.au">Bluethumb</a> (Remote)
+          </h1>
 
-      <p class="content">
-        Some people cringe when people call themselves full-stack but I belive you can be good without being bad at both.
-        The Lego master builder when it comes to front-end, since <strong>I stopped googling how to center divs.</strong>
-        &nbsp;<a href="https://vuejs.org/">Vue</a> is my preferred front-end library as I love how intuitive it is but I can write React code no less.
-      </p>
+          <p class="text-sm">
+            <em>Full Time Role</em>
+            <br>
+            2016 April - Current
+          </p>
 
-      <p class="content">
-        Using RSpec and Capybara with CI/CD.  I consider writing test a solid foundation for any software,
-        but prefers taking the pragmatic approach over TDD/BDD.
-        And have migrated stacks over from Heroku to auto scaling with AWS Elastic Beanstalk so I'm no stranger to Unix or AWS.
-      </p>
+          <p class="content mt-4 text-base">
+            A marketplace for artist to publish their art while we automate delivery and logistics so 
+            they can focus on what they do best - creating art.
+          </p>
+        </div>
+
+        <div class="sm:w-3/5">
+          <img src="~@/assets/images/BluethumbResponsive_small.png" alt="Bluethumb Art">
+        </div>
+      </div>
+
     </div>
   </div>
 </template>

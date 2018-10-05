@@ -19,23 +19,21 @@
       </h2>
 
       <div class="icons mt-12">
-        <a
-          class="text-teal hover:text-teal-dark"
-          href="https://www.linkedin.com/in/chonghui/">
-          <LinkedIn class="icon mx-2"
-            style="width: 30px;
-            height: auto;" 
-            viewBox="0 0 32 32" />
+
+        <a href="https://www.linkedin.com/in/chonghui/">
+          <i class="icon icon-linkedin-1"></i>
         </a>
 
-        <a
-          class="text-teal hover:text-teal-dark"
-          href="https://github.com/choonggg">
-          <Github class="icon mx-2"
-            style="width: 30px; height: auto;"
-            viewBox="0 0 32 32" />
+        <a href="https://github.com/choonggg">
+          <i class="icon icon-github"></i>
         </a>
+
+        <a href="mailto:iamchoonggg@gmail.com">
+          <i class="icon icon-mail"></i>
+        </a>
+
       </div>
+
     </div>
   </div>
 </template>
@@ -43,12 +41,14 @@
 <script>
 import LinkedIn from '@/assets/svg/linkedin2.svg'
 import Github from '@/assets/svg/github.svg'
+import Envelope from '@/assets/svg/envelope.svg'
 
 export default {
   name: 'Header',
   components: {
     LinkedIn,
-    Github
+    Github,
+    Envelope,
   },
 }
 </script>

@@ -1,29 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:400,600');
+@import './fontello';
 
 @tailwind preflight;
-@tailwind utilities;
-
-// Overrides utilities
-@media (min-width: 1060px) {
-  .container {
-    max-width: 820px;
-  }
-}
-
-body {
-  @apply .font-sans border-l-8 border-teal .text-black .pb-24;
-  background-color: #fffdf0;
-}
-
-svg.icon {
-  background-color: transparent;
-  fill: currentColor;
-}
 
 .content {
   @apply .leading-normal .font-sans .text-lg .my-8;
 }
 
 a {
-  @apply text-teal-dark;
+  @apply .text-teal-dark;
+
+  &:hover {
+    @apply .text-teal-darker;
+  }
+}
+
+form {
+  input[type='text'],
+  input[type='email'] {
+    @apply .w-full .px-4 .py-4 .my-4 .border-grey .border;
+  }
+
+  textarea {
+    @apply .w-full .border-grey .border .p-4 my-4;
+  }
+}
+
+i.icon {
+  font-size: 30px;
+}
+
+@tailwind utilities;
+
+// Overrides utilities
+@media (min-width: 1060px) {
+  .container {
+    max-width: 920px;
+  }
+}
+
+body {
+  @apply .font-sans border-l-8 border-teal .text-black .pb-24;
+  background-color: #fffdf0;
 }
