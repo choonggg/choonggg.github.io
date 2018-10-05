@@ -9,7 +9,7 @@
     <form action="https://formspree.io/iamchoonggg@gmail.com" method="POST">
       <input type="text" name="name" placeholder="Name">
       <input type="email" name="_replyto" placeholder="Email">
-      <textarea id="" name="" cols="30" rows="10" placeholder="Message.."></textarea>
+      <textarea id="" name="message" cols="30" rows="10" placeholder="Message.."></textarea>
       <input type="submit" class="border border-grey rounded py-2 px-4" value="Send">
     </form>
   </section>
